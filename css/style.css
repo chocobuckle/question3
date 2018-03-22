@@ -1,0 +1,94 @@
+.app-container {
+  align-items: center;
+  border: 0.5em solid #008000;
+  border-radius: 0.4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+header {
+  margin: 1em auto;
+}
+
+section {
+  margin-bottom: 0.9em;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  margin-left: 0.25em;
+}
+
+.logo {
+  left: 0.5em;
+  position: relative;
+}
+
+.edit-note__position-input,
+.color-picker__position-input {
+  width: 4.3em;
+}
+
+.note-list {
+  margin-bottom: 0.45em;
+  padding-left: 0;
+}
+
+.note-item {
+  border-radius: 2px;
+  height: 1.31em;
+  margin-bottom: 0.8em;
+  padding: 0.4em;
+  line-height: 21px;
+}
+
+.delete-button {
+  float: right;
+  margin-left: 0.6em;
+}
+
+.no-notes {
+  display: none;
+  margin-bottom: 0;
+}
+
+.note-color-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0.5em;
+}
+
+.color-picker-flex-wrapper {
+  display: flex;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1em;
+  width: 9em;
+}
+
+.color-button {
+  height: 2em;
+  width: 3em;
+}
+
+.color-button--green {
+  background-color: #008000;
+}
+
+.color-button--yellow {
+  background-color: #e0e005;
+}
+
+.color-button--red {
+  background-color: #ff0000;
+}

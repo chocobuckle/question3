@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Note Taking App</title>
+  <link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+  <div class='app-container'>
+    <header><img src="./img/logo.png" alt="Vectra logo"></header>
+    <section>
+      <button class='add-note__button'>Add Note</button>
+      <input class='add-note__text-input' type='text' placeholder='Enter Note'>
+    </section>
+    <section>
+      <button class='edit-note__button'>Edit Note</button>
+      <input class='edit-note__position-input' type='number' min='1' placeholder='Note #'>
+      <input class='edit-note__text-input' type='text' placeholder='New Note Details'>
+    </section>
+    <section class='color-picker-flex-wrapper'>
+      <span class='note-color-text'>Note Color: </span>
+      <input class='color-picker__position-input' type='number' min='1' placeholder='Note #'>
+      <div class='color-picker'>
+        <button data-color='#008000' class='color-button color-button--green'></button>
+        <button data-color='#e0e005' class='color-button color-button--yellow'></button>
+        <button data-color='#ff0000' class='color-button color-button--red'></button>
+      </div>
+    </section>
+    <p class='no-notes'>No notes to see here. Try adding one!</p>
+    <ol class='note-list'>
+    </ol>
+  </div>
+<script src="./js/app.js"></script>
+</body>
+</html>
